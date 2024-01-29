@@ -1,6 +1,7 @@
 package session02;
 
 
+import java.util.Arrays;
 
 public class session02 {
 
@@ -23,8 +24,14 @@ public class session02 {
 //        System.out.println(c);
 
 //       *** part2: string Formatting ***
-        String name="farzaneh";
+        String name="         farzaneh noori             ";
         String greeting=String.format("%s to %s ", "Hello",name);
         System.out.println(greeting);
+
+        String a=greeting.toUpperCase();
+        System.out.println(a);
+        System.out.println(a.split(" ")[2]);
+        System.out.println(name.trim());
+        System.out.println(greeting.replace("Hello","Hiii"));
     }
 }
