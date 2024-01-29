@@ -23,8 +23,8 @@ public class session02 {
 //        System.out.println(c);
 
 //       *** part2: string Formatting ***
-        String name="John";
-        String greeting=String.format("%s to %s ", "Hello","farzaneh");
+        String name="farzaneh";
+        String greeting=String.format("%s to %s ", "Hello",name);
         System.out.println(greeting);
     }
 }
