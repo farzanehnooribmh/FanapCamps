@@ -15,6 +15,10 @@ public class session01 {
         double weight=58.88d;
 
 
+        var myAge=32;
+
+
+
         System.out.println(a);
         System.out.println(b);
         System.out.println(c);
