@@ -24,14 +24,32 @@ public class session02 {
 //        System.out.println(c);
 
 //       *** part2: string Formatting ***
-        String name="         farzaneh noori             ";
-        String greeting=String.format("%s to %s ", "Hello",name);
-        System.out.println(greeting);
+//        String name="         farzaneh noori             ";
+//        String greeting=String.format("%s to %s ", "Hello",name);
+//        System.out.println(greeting);
+//
+//        String a=greeting.toUpperCase();
+//        System.out.println(a);
+//        System.out.println(a.split(" ")[2]);
+//        System.out.println(name.trim());
+//        System.out.println(greeting.replace("Hello","Hiii"));
 
-        String a=greeting.toUpperCase();
-        System.out.println(a);
-        System.out.println(a.split(" ")[2]);
-        System.out.println(name.trim());
-        System.out.println(greeting.replace("Hello","Hiii"));
+//        *** part3-hands-on-questions ***
+
+        String name="Farzaneh";
+        int age=33;
+        String introduce=String.format("I am %s and i am %d years old .",name,age );
+        System.out.println(introduce);
+        introduce=introduce.toUpperCase();
+        System.out.println(introduce);
+        introduce=introduce.replace("FARZANEH","DOTIN");
+        System.out.println(introduce);
+        int dotinindex=introduce.indexOf("DOTIN");
+        System.out.println(dotinindex);
+        int dotinlength="DOTIN".length();
+        System.out.println(dotinindex);
+        System.out.println(introduce.substring(0,dotinindex+dotinlength));
+
+
     }
 }
